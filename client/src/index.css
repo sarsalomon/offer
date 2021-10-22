@@ -1,0 +1,84 @@
+body {
+  background: #0e1726;
+}
+a{
+  text-decoration: none;
+  background-color: transparent;
+  color: #e0e6ed;
+  outline: none;
+}
+.border-radius{
+  border-radius: 8px;
+}
+.border-dashed-bottom{
+  border: 2px dashed red;
+}
+.navbar-border{
+  border-radius: 10px;
+  background-color: #191e3a;
+}
+.navbar-link{
+  text-decoration: none;
+  color: gainsboro;
+  font-weight: lighter;
+  padding: 0 30px 0 30px;
+  border-right: 1px solid #515365;
+}
+.navbar-link:active{
+  text-decoration: none;
+  color: #25d5e4;
+  font-weight: 300;
+}
+.text-decoration-none{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.login-card{
+  width: 480px; 
+  background: #060818;
+  padding: 20px; 
+  border-radius: 15px;
+}
+.card{
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  background: #060818;
+  -webkit-box-shadow: 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%), 0 3px 5px -1px rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12), 0 3px 5px -1px rgba(0,0,0,.2);
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%), 0 3px 5px -1px rgb(0 0 0 / 20%);
+}
+.card-offer{
+  padding: 20px;
+  background-color: #191e3a;
+  border-radius: 8px;
+  border: 1px solid #1b2e4b;
+}
+.card-offer-title{
+  font-size: 16px;
+  font-weight: 700;
+}
+.card-offer-info{
+  padding: 24px 8px 24px 0px;
+}
+.dark-accordion{
+  color:rgba(0, 0, 0, 0.7);
+}
+.box-shadow{
+  -webkit-box-shadow: 0px 0px 29px -13px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 29px -13px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 29px -13px rgba(0, 0, 0, 0.7);
+}
+.gray-text{
+  color: #bfc9d4;
+}
+.button-top-transform{
+  transform: translateY(1px);
+  transition: all 0.3s ease-out;
+}
+.button-top-transform:hover{
+  transform: translateY(-1px);
+  transition: all 0.3s ease-out;
+}
